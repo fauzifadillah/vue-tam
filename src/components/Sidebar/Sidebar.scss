@@ -1,0 +1,53 @@
+.container-sidebar {
+  background: #0085CA;
+  height: 90vh;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.04);
+  top: 0;
+  position: sticky;
+
+  p {
+    color: #b3b3b3;
+  }
+
+  a {
+    color: #ffffff;
+    border-left: 3px solid #0085CA;
+
+    &:hover {
+      color: #ffffff;
+      background-color: #00A8FF;
+      border-left: 3px solid #ffffff;
+    }
+  }
+
+  .bottom-menu {
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+  }
+
+  .icon-menu-sidebar {
+    color: #ffffff;
+  }
+
+  /* Active Sidebar */
+  .router-link {
+    border-left: 3px solid #0085CA;
+  }
+
+  .router-link-active, .router-link-exact-active {
+    color: #ffffff;
+    border-left: 3px solid #ffffff;
+    background-color: #00A8FF;
+  }
+
+  /* Accordion Styling */
+  .accordion {
+    &-item {
+      button {
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+  }
+}
