@@ -18,7 +18,9 @@
         <p class="mb-0"><b>Hello</b>, Keke Rahmawati</p>
       </div>
       <!-- Logout Button -->
-      <div class="col-auto d-flex align-items-center">Logout</div>
+      <div class="col-auto d-flex align-items-center">
+        <button type="button" class="btn btn-sm btn-danger">Logout</button>
+      </div>
     </div>
   </div>
 </template>

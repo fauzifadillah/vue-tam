@@ -3,6 +3,7 @@ import Home from "../views/Home/Home.vue";
 import Dashboard from "../views/Dashboard/Dashboard.vue";
 import Report from "../views/Report/Report.vue";
 import PushNotification from "../views/PushNotification/PushNotification.vue";
+import DetailAccount from "../views/Dashboard/DetailAccount.vue";
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: "/push-notification",
     name: "PushNotification",
     component: PushNotification,
+  },
+  {
+    path: "/dashboard/detail-account",
+    name: "DetailAccount",
+    component: DetailAccount,
   },
 ];
 

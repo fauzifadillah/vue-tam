@@ -132,6 +132,88 @@
       </div>
     </div>
 
+    <!-- My Learning -->
+    <div class="row m-0">
+      <router-link :to="'my-learning'">
+        <div class="row py-2">
+          <div class="col-2 pl-0 d-flex align-items-center">
+            <img
+              src="@/assets/icon/my-learning-icon.png"
+              alt="my learning"
+              height="24"
+            />
+          </div>
+          <div class="col-10 d-flex align-items-center">
+            <span>My Learning</span>
+          </div>
+        </div>
+      </router-link>
+    </div>
+
+    <!-- My Complaint -->
+    <div class="row m-0">
+      <router-link :to="'my-complaint'">
+        <div class="row py-2">
+          <div class="col-2 pl-0 d-flex align-items-center">
+            <img
+              src="@/assets/icon/my-complaint-icon.png"
+              alt="my complaint"
+              height="24"
+            />
+          </div>
+          <div class="col-10 d-flex align-items-center">
+            <span>My Complaint</span>
+          </div>
+        </div>
+      </router-link>
+    </div>
+
+    <!-- Announcement -->
+    <div class="row m-0">
+      <router-link :to="'announcement'">
+        <div class="row py-2">
+          <div class="col-2 pl-0 d-flex align-items-center">
+            <img
+              src="@/assets/icon/announcement-icon.png"
+              alt="report"
+              height="24"
+            />
+          </div>
+          <div class="col-10 d-flex align-items-center">
+            <span>Announcement</span>
+          </div>
+        </div>
+      </router-link>
+    </div>
+
+    <!-- Event -->
+    <div class="row m-0">
+      <router-link :to="'event'">
+        <div class="row py-2">
+          <div class="col-2 pl-0 d-flex align-items-center">
+            <img src="@/assets/icon/event-icon.png" alt="report" height="24" />
+          </div>
+          <div class="col-10 d-flex align-items-center">
+            <span>Event</span>
+          </div>
+        </div>
+      </router-link>
+    </div>
+
+    <!-- CMS -->
+    <div class="row m-0">
+      <router-link :to="'cms'">
+        <div class="row py-2">
+          <div class="col-2 pl-0 d-flex align-items-center">
+            <img src="@/assets/icon/cms-icon.png" alt="report" height="24" />
+          </div>
+          <div class="col-10 d-flex align-items-center">
+            <span>CMS</span>
+          </div>
+        </div>
+      </router-link>
+    </div>
+
     <!-- Survey and Assessment -->
     <div class="row m-0">
       <router-link :to="'survey-and-assessment'">
@@ -145,6 +227,60 @@
           </div>
           <div class="col-10 d-flex align-items-center">
             <span>Survey & Assessment</span>
+          </div>
+        </div>
+      </router-link>
+    </div>
+
+    <!-- My News -->
+    <div class="row m-0">
+      <router-link :to="'my-news'">
+        <div class="row py-2">
+          <div class="col-2 pl-0 d-flex align-items-center">
+            <img
+              src="@/assets/icon/my-news-icon.png"
+              alt="report"
+              height="24"
+            />
+          </div>
+          <div class="col-10 d-flex align-items-center">
+            <span>My News</span>
+          </div>
+        </div>
+      </router-link>
+    </div>
+
+    <!-- Reward -->
+    <div class="row m-0">
+      <router-link :to="'rewards'">
+        <div class="row py-2">
+          <div class="col-2 pl-0 d-flex align-items-center">
+            <img
+              src="@/assets/icon/rewards-icon.png"
+              alt="report"
+              height="24"
+            />
+          </div>
+          <div class="col-10 d-flex align-items-center">
+            <span>Rewards</span>
+          </div>
+        </div>
+      </router-link>
+    </div>
+
+    <!-- Push Notification -->
+    <div class="row m-0">
+      <router-link :to="'push-notification'">
+        <div class="row py-2">
+          <div class="col-2 pl-0 d-flex align-items-center">
+            <img
+              src="@/assets/icon/push-notification-icon.png"
+              alt="report"
+              height="24"
+            />
+          </div>
+          <div class="col-10 d-flex align-items-center">
+            <span>Push Notification</span>
           </div>
         </div>
       </router-link>

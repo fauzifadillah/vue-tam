@@ -88,8 +88,10 @@ b {
   font-weight: bold;
 }
 
-.text-blue-tam {
-  color: #0085CA !important;
+.text {
+  &-primary {
+    color: #0085CA !important;
+  }
 }
 
 /* Styling Button */
@@ -111,6 +113,11 @@ button {
   &-primary {
     background-color: #0085CA;
     border-color: #0085CA;
+  }
+
+  &-success {
+    background-color: #60D408;
+    border-color: #60D408;
   }
 }
 

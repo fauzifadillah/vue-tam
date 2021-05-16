@@ -5,6 +5,8 @@
   top: 0;
   width: 225px;
   position: sticky;
+  max-height: 90vh;
+  overflow-y: auto;
 
   p {
     color: #b3b3b3;
