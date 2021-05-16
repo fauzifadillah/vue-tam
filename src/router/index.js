@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home/Home.vue";
 import Dashboard from "../views/Dashboard/Dashboard.vue";
 import Report from "../views/Report/Report.vue";
+import PushNotification from "../views/PushNotification/PushNotification.vue";
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: "/report",
     name: "Report",
     component: Report,
+  },
+  {
+    path: "/push-notification",
+    name: "PushNotification",
+    component: PushNotification,
   },
 ];
 

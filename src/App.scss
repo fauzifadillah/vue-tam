@@ -5,12 +5,12 @@ body {
   margin: 0;
 }
 
-.bg-primary-six {
+.bg-primary-tam {
   background: #F6FBFF;
 }
 
-.bg-blue-six {
-  background-image: linear-gradient(to bottom right, #1673b1, #4fa8f0);
+.bg-blue-tam {
+  background-color: #0085CA;
 }
 
 /* Scroll bar */
@@ -46,13 +46,13 @@ h6 {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
-  color: #458fc1;
+  color: #000000;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -81,15 +81,15 @@ a, p, b {
 }
 
 a {
-  color: #1673B1;
+  color: #0085CA;
 }
 
 b {
   font-weight: bold;
 }
 
-.text-blue-six {
-  color: #458fc1 !important;
+.text-blue-tam {
+  color: #0085CA !important;
 }
 
 /* Styling Button */
@@ -100,56 +100,22 @@ button {
   }
 }
 
-.btn-primary-six {
-  background-image: linear-gradient(to bottom right, #1673b1, #4fa8f0);
-  border-radius: 4px;
-  font-size: 16px;
-  color: #ffffff;
-  padding: 10px;
-
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.btn-secondary-six {
-  background-color: #ffffff;
-  border-radius: 4px;
-  border: 1px solid #1673B1;
-  color: #1673B1;
-  padding: 10px;
-
-  &:hover {
-    cursor: pointer;
-  }
-}
-
-.btn-disabled-six {
-  background-color: #D8DBDF;
-  border-radius: 4px;
-  border: 1px solid#D8DBDF;
-  color: #828386;
-  padding: 10px;
-
-  &:hover {
-    cursor: not-allowed;
-  }
-}
-
-.btn-danger-six {
-  background-color: #E22935;
-  border-radius: 4px;
-  border: 1px solid#E22935;
+.btn {
   color: #fff;
-  padding: 10px;
+  padding: 7px 20px;
 
   &:hover {
-    cursor: not-allowed;
+    cursor: pointer;
+  }
+
+  &-primary {
+    background-color: #0085CA;
+    border-color: #0085CA;
   }
 }
 
 /* Styling Dropdown Button */
-.btn-dropdown-six {
+.btn-dropdown-tam {
   color:#000000;
   border: 1px solid #BCC2C7;
 }
@@ -179,7 +145,7 @@ button {
   border: none;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.04), 
               -2px -2px 6px rgba(0, 0, 0, 0.04);
-  border-top: 6px solid #4fa8f0;
+  background-color: #ffffff;
 }
 
 
@@ -206,15 +172,24 @@ input, .form-select {
   border: none;
   display: block;
   width: 100%;
-  padding: 15px 15px !important;
-  font-size: 16px;
-  background-color: #F1F5F8;
-  border-radius: 4px;
+  padding: 7px 20px !important;
   color: #000000;
   background-clip: padding-box;
-  line-height: 19px;
   appearance: none;
   outline: none;
+
+  &.form-check-input {
+    padding: 0 !important;
+  }
+}
+
+.form-select.show-entries {
+  display: inline;
+  border: 1px solid #BCC2C7;
+}
+
+.form-check {
+  margin-bottom: 0; 
 }
 
 textarea {
@@ -234,19 +209,22 @@ textarea {
 
 /* Styling Table */
 thead {
-  background-color: #f9f9f9;
+  background-color: #0085CA;
+  color: #ffffff;
 }
 
 th, td, thead, tr {
   border-color: #D8D8DF !important;
 }
 
-tr:hover {
-  background-color: #f9f9f9;
-  --bs-table-accent-bg: none !important;
-}
-
 /* Styling Modal */
 .modal-content {
   max-height: 80vh;
+}
+
+/* Pagination Styling */
+.Pagination {
+  .Page-active {
+    color: #ffffff !important;
+  }
 }
