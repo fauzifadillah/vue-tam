@@ -11,9 +11,9 @@
       <div class="col-auto p-0">
         <Sidebar />
       </div>
-      <div class="col p-4 container-dashboard">
+      <div class="col p-4 container-push-notification">
         <!-- Header -->
-        Dashboard
+        Push Notification
       </div>
     </div>
   </div>
@@ -25,7 +25,7 @@ import Sidebar from "@/components/Sidebar/Sidebar.vue";
 import Navbar from "@/components/Navbar/Navbar.vue";
 
 export default {
-  name: "Dashboard",
+  name: "PushNotification",
   components: {
     Sidebar,
     Navbar,
@@ -34,5 +34,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "Dashboard.scss";
+@import "PushNotification.scss";
 </style>
