@@ -97,56 +97,23 @@
                 </td>
                 <td>Announcement</td>
                 <td>19/02/2021 10:22</td>
-                <td class="row mx-0">
-                  <div class="col-auto px-0">
-                    <button type="button" class="btn btn-sm btn-warning">
-                      View Detail
-                    </button>
-                  </div>
-                  <div class="col-auto">
-                    <button type="button" class="btn btn-sm btn-info">
-                      Edit
-                    </button>
-                  </div>
-                  <div class="col px-0">
-                    <button type="button" class="btn btn-sm btn-danger">
-                      Remove
-                    </button>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td scope="row">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id="flexCheckDefault"
-                    />
-                  </div>
-                </td>
-                <td class="col-2">Felisa Marta</td>
-                <td class="col-2">
-                  Lorem Ipsum Dolor Sit Amet asdasldjasdkasdklj
-                </td>
-                <td>Announcement</td>
-                <td>19/02/2021 10:22</td>
-                <td class="row mx-0">
-                  <div class="col-auto px-0">
-                    <button type="button" class="btn btn-sm btn-warning">
-                      View Detail
-                    </button>
-                  </div>
-                  <div class="col-auto">
-                    <button type="button" class="btn btn-sm btn-info">
-                      Edit
-                    </button>
-                  </div>
-                  <div class="col px-0">
-                    <button type="button" class="btn btn-sm btn-danger">
-                      Remove
-                    </button>
+                <td>
+                  <div class="row mx-0">
+                    <div class="col-auto px-0">
+                      <button type="button" class="btn btn-sm btn-warning">
+                        View Detail
+                      </button>
+                    </div>
+                    <div class="col-auto">
+                      <button type="button" class="btn btn-sm btn-info">
+                        Edit
+                      </button>
+                    </div>
+                    <div class="col px-0">
+                      <button type="button" class="btn btn-sm btn-danger">
+                        Remove
+                      </button>
+                    </div>
                   </div>
                 </td>
               </tr>
@@ -167,21 +134,60 @@
                 </td>
                 <td>Announcement</td>
                 <td>19/02/2021 10:22</td>
-                <td class="row mx-0">
-                  <div class="col-auto px-0">
-                    <button type="button" class="btn btn-sm btn-warning">
-                      View Detail
-                    </button>
+                <td>
+                  <div class="row mx-0">
+                    <div class="col-auto px-0">
+                      <button type="button" class="btn btn-sm btn-warning">
+                        View Detail
+                      </button>
+                    </div>
+                    <div class="col-auto">
+                      <button type="button" class="btn btn-sm btn-info">
+                        Edit
+                      </button>
+                    </div>
+                    <div class="col px-0">
+                      <button type="button" class="btn btn-sm btn-danger">
+                        Remove
+                      </button>
+                    </div>
                   </div>
-                  <div class="col-auto">
-                    <button type="button" class="btn btn-sm btn-info">
-                      Edit
-                    </button>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
                   </div>
-                  <div class="col px-0">
-                    <button type="button" class="btn btn-sm btn-danger">
-                      Remove
-                    </button>
+                </td>
+                <td class="col-2">Felisa Marta</td>
+                <td class="col-2">
+                  Lorem Ipsum Dolor Sit Amet asdasldjasdkasdklj
+                </td>
+                <td>Announcement</td>
+                <td>19/02/2021 10:22</td>
+                <td>
+                  <div class="row mx-0">
+                    <div class="col-auto px-0">
+                      <button type="button" class="btn btn-sm btn-warning">
+                        View Detail
+                      </button>
+                    </div>
+                    <div class="col-auto">
+                      <button type="button" class="btn btn-sm btn-info">
+                        Edit
+                      </button>
+                    </div>
+                    <div class="col px-0">
+                      <button type="button" class="btn btn-sm btn-danger">
+                        Remove
+                      </button>
+                    </div>
                   </div>
                 </td>
               </tr>

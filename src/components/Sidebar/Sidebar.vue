@@ -32,7 +32,7 @@
       </a>
       <div id="collapseOne" class="panel-collapse collapse in">
         <div class="row m-0">
-          <router-link :to="'report'">
+          <router-link :to="'/dashboard/account'">
             <div class="row py-2">
               <div class="col-2 pl-0 d-flex align-items-center">
                 <img
@@ -42,13 +42,13 @@
                 />
               </div>
               <div class="col-10 d-flex align-items-center">
-                <span>Item 1</span>
+                <span>Account</span>
               </div>
             </div>
           </router-link>
         </div>
         <div class="row m-0">
-          <router-link :to="'report'">
+          <router-link :to="'/dashboard/guest-account'">
             <div class="row py-2">
               <div class="col-2 pl-0 d-flex align-items-center">
                 <img
@@ -58,7 +58,7 @@
                 />
               </div>
               <div class="col-10 d-flex align-items-center">
-                <span>Item 2</span>
+                <span>Guest Account</span>
               </div>
             </div>
           </router-link>
