@@ -8,8 +8,8 @@ import EditGuestAccount from "../views/Dashboard/EditGuestAccount.vue";
 /* CMS */
 import Onboarding from "../views/CMS/Onboarding.vue";
 import Grouping from "../views/CMS/Grouping.vue";
-// import SplashScreen from "../views/CMS/SplashScreen.vue";
-// import Announcement from "../views/CMS/Announcement.vue";
+import SplashScreen from "../views/CMS/SplashScreen.vue";
+import Announcement from "../views/CMS/Announcement.vue";
 // import Guide from "../views/CMS/Guide.vue";
 
 const routes = [
@@ -49,6 +49,16 @@ const routes = [
     path: "/cms/grouping",
     name: "Grouping",
     component: Grouping,
+  },
+  {
+    path: "/cms/splash-screen",
+    name: "SplashScreen",
+    component: SplashScreen,
+  },
+  {
+    path: "/cms/announcement",
+    name: "Announcement",
+    component: Announcement,
   },
 ];
 

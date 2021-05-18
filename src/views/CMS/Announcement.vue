@@ -11,7 +11,7 @@
       <div class="col-auto p-0">
         <Sidebar />
       </div>
-      <div class="col p-4 container-tam container-onboarding">
+      <div class="col p-4 container-tam container-announcement">
         <!-- Header -->
         <div class="row">
           <div class="col-auto">
@@ -19,7 +19,7 @@
           </div>
           <div class="col-auto px-0">></div>
           <div class="col-auto">
-            <h1 class="mb-4 text-primary">Onboarding</h1>
+            <h1 class="mb-4 text-primary">Announcement</h1>
           </div>
         </div>
         <!-- Search Bar, Filter and Add Broadcast -->
@@ -44,10 +44,10 @@
               </button>
             </form>
           </div>
-          <!-- Add Onboarding -->
+          <!-- Add Announcement -->
           <div class="col d-flex justify-content-end">
             <button type="button" class="btn btn-primary">
-              + Add Onboarding
+              + Add Announcement
             </button>
           </div>
         </div>
@@ -56,7 +56,7 @@
           <!-- Table Header -->
           <div class="row">
             <div class="col">
-              <h2>Onboarding List</h2>
+              <h2>Announcement List</h2>
             </div>
             <div class="col-auto">
               <button type="button" class="btn btn-sm btn-danger">
@@ -79,16 +79,6 @@
                         value=""
                         id="flexCheckDefault"
                       />
-                    </div>
-                  </th>
-                  <th scope="col" style="width: 7.5%">
-                    <div class="row">
-                      <div class="col">Type</div>
-                      <div class="col-auto">
-                        <span
-                          ><i class="fa fa-sort" aria-hidden="true"></i
-                        ></span>
-                      </div>
                     </div>
                   </th>
                   <th scope="col" style="width: 15%">
@@ -121,7 +111,7 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 12.5%">
+                  <th scope="col" style="width: 15%">
                     <div class="row">
                       <div class="col">Created Date</div>
                       <div class="col-auto">
@@ -131,7 +121,7 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 12.5%">
+                  <th scope="col" style="width: 15%">
                     <div class="row">
                       <div class="col">Updated Date</div>
                       <div class="col-auto">
@@ -157,9 +147,8 @@
                       />
                     </div>
                   </td>
-                  <td>Image</td>
-                  <td>Lorem Ipsum Dolor Sit Amet</td>
-                  <td><a href="#">wa1234.jpg</a></td>
+                  <td>Lorem Ipsum Dolor Sit Ametum</td>
+                  <td><a href="#">wa1233.jpg</a></td>
                   <td>Waiting for Approval</td>
                   <td>19/02/2021 10:22</td>
                   <td>19/02/2022 10:23</td>
@@ -195,9 +184,8 @@
                       />
                     </div>
                   </td>
-                  <td>Image</td>
-                  <td>Lorem Ipsum Dolor Sit Amet</td>
-                  <td><a href="#">wa1234.jpg</a></td>
+                  <td>Lorem Ipsum Dolor Sit Ametum</td>
+                  <td><a href="#">wa1233.jpg</a></td>
                   <td>Waiting for Approval</td>
                   <td>19/02/2021 10:22</td>
                   <td>19/02/2022 10:23</td>
@@ -264,7 +252,7 @@ import VPagination from "@hennge/vue3-pagination";
 import "@hennge/vue3-pagination/dist/vue3-pagination.css";
 
 export default {
-  name: "Onboarding",
+  name: "Announcement",
   components: {
     Sidebar,
     Navbar,

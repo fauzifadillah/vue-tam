@@ -11,7 +11,7 @@
       <div class="col-auto p-0">
         <Sidebar />
       </div>
-      <div class="col p-4 container-tam container-onboarding">
+      <div class="col p-4 container-tam container-splash-screen">
         <!-- Header -->
         <div class="row">
           <div class="col-auto">
@@ -19,7 +19,7 @@
           </div>
           <div class="col-auto px-0">></div>
           <div class="col-auto">
-            <h1 class="mb-4 text-primary">Onboarding</h1>
+            <h1 class="mb-4 text-primary">Splash Screen</h1>
           </div>
         </div>
         <!-- Search Bar, Filter and Add Broadcast -->
@@ -44,10 +44,10 @@
               </button>
             </form>
           </div>
-          <!-- Add Onboarding -->
+          <!-- Add Splash Screen -->
           <div class="col d-flex justify-content-end">
             <button type="button" class="btn btn-primary">
-              + Add Onboarding
+              + Add Splash Screen
             </button>
           </div>
         </div>
@@ -56,7 +56,7 @@
           <!-- Table Header -->
           <div class="row">
             <div class="col">
-              <h2>Onboarding List</h2>
+              <h2>Splash List</h2>
             </div>
             <div class="col-auto">
               <button type="button" class="btn btn-sm btn-danger">
@@ -81,7 +81,7 @@
                       />
                     </div>
                   </th>
-                  <th scope="col" style="width: 7.5%">
+                  <th scope="col" style="width: 10%">
                     <div class="row">
                       <div class="col">Type</div>
                       <div class="col-auto">
@@ -91,19 +91,9 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 15%">
-                    <div class="row">
-                      <div class="col">Title</div>
-                      <div class="col-auto">
-                        <span
-                          ><i class="fa fa-sort" aria-hidden="true"></i
-                        ></span>
-                      </div>
-                    </div>
-                  </th>
                   <th scope="col" style="width: 10%">
                     <div class="row">
-                      <div class="col">File</div>
+                      <div class="col">Step</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -121,7 +111,7 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 12.5%">
+                  <th scope="col" style="width: 15%">
                     <div class="row">
                       <div class="col">Created Date</div>
                       <div class="col-auto">
@@ -131,7 +121,7 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 12.5%">
+                  <th scope="col" style="width: 15%">
                     <div class="row">
                       <div class="col">Updated Date</div>
                       <div class="col-auto">
@@ -158,46 +148,7 @@
                     </div>
                   </td>
                   <td>Image</td>
-                  <td>Lorem Ipsum Dolor Sit Amet</td>
-                  <td><a href="#">wa1234.jpg</a></td>
-                  <td>Waiting for Approval</td>
-                  <td>19/02/2021 10:22</td>
-                  <td>19/02/2022 10:23</td>
-                  <td>
-                    <div class="row mx-0">
-                      <div class="col-auto px-0">
-                        <button type="button" class="btn btn-sm btn-warning">
-                          View Detail
-                        </button>
-                      </div>
-                      <div class="col-auto">
-                        <button type="button" class="btn btn-sm btn-info">
-                          Edit
-                        </button>
-                      </div>
-                      <div class="col px-0">
-                        <button type="button" class="btn btn-sm btn-danger">
-                          Remove
-                        </button>
-                      </div>
-                    </div>
-                  </td>
-                </tr>
-                <!-- Item 2 -->
-                <tr>
-                  <td scope="row">
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckDefault"
-                      />
-                    </div>
-                  </td>
-                  <td>Image</td>
-                  <td>Lorem Ipsum Dolor Sit Amet</td>
-                  <td><a href="#">wa1234.jpg</a></td>
+                  <td>3 Step</td>
                   <td>Waiting for Approval</td>
                   <td>19/02/2021 10:22</td>
                   <td>19/02/2022 10:23</td>
@@ -264,7 +215,7 @@ import VPagination from "@hennge/vue3-pagination";
 import "@hennge/vue3-pagination/dist/vue3-pagination.css";
 
 export default {
-  name: "Onboarding",
+  name: "Splash Screen",
   components: {
     Sidebar,
     Navbar,
