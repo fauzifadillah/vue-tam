@@ -11,15 +11,15 @@
       <div class="col-auto p-0">
         <Sidebar />
       </div>
-      <div class="col p-4 container-tam container-complaint">
+      <div class="col p-4 container-tam container-training-process">
         <!-- Header -->
         <div class="row">
           <div class="col-auto">
-            <h1 class="mb-4">My Complaint</h1>
+            <h1 class="mb-4">My Learning</h1>
           </div>
           <div class="col-auto px-0">></div>
           <div class="col-auto">
-            <h1 class="mb-4 text-primary">Complaint</h1>
+            <h1 class="mb-4 text-primary">Training Process</h1>
           </div>
         </div>
         <!-- Search Bar, Filter and Add Broadcast -->
@@ -50,17 +50,7 @@
           <!-- Table Header -->
           <div class="row">
             <div class="col">
-              <h2>Complaint List</h2>
-            </div>
-            <div class="col-auto">
-              <button type="button" class="btn btn-sm btn-danger">
-                Delete
-              </button>
-            </div>
-            <div class="col-auto">
-              <button type="button" class="btn btn-sm btn-primary">
-                Bulk Update
-              </button>
+              <h2>Training List</h2>
             </div>
           </div>
           <hr />
@@ -70,19 +60,9 @@
             <table class="table table-hover table-bordered table-responsive">
               <thead>
                 <tr>
-                  <th scope="col-auto">
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckDefault"
-                      />
-                    </div>
-                  </th>
-                  <th scope="col" style="width: 10%">
+                  <th scope="col" style="width: 15%">
                     <div class="row">
-                      <div class="col">ID</div>
+                      <div class="col">Course Name</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -92,17 +72,7 @@
                   </th>
                   <th scope="col" style="width: 10%">
                     <div class="row">
-                      <div class="col">Subject</div>
-                      <div class="col-auto">
-                        <span
-                          ><i class="fa fa-sort" aria-hidden="true"></i
-                        ></span>
-                      </div>
-                    </div>
-                  </th>
-                  <th scope="col" style="width: 10%">
-                    <div class="row">
-                      <div class="col">Category</div>
+                      <div class="col">Batch</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -112,7 +82,7 @@
                   </th>
                   <th scope="col" style="width: 12.5%">
                     <div class="row">
-                      <div class="col">Sub Category</div>
+                      <div class="col">Confirmed</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -122,7 +92,7 @@
                   </th>
                   <th scope="col" style="width: 12.5%">
                     <div class="row">
-                      <div class="col">Submitted Date</div>
+                      <div class="col">Quota</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -130,9 +100,9 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 10%">
+                  <th scope="col" style="width: 12.5%">
                     <div class="row">
-                      <div class="col">Event Date</div>
+                      <div class="col">Start Date</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -140,19 +110,9 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 7.5%">
+                  <th scope="col" style="width: 12.5%">
                     <div class="row">
-                      <div class="col">PIC</div>
-                      <div class="col-auto">
-                        <span
-                          ><i class="fa fa-sort" aria-hidden="true"></i
-                        ></span>
-                      </div>
-                    </div>
-                  </th>
-                  <th scope="col" style="width: 7.5%">
-                    <div class="row">
-                      <div class="col">Status</div>
+                      <div class="col">End Date</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -166,24 +126,12 @@
               <tbody>
                 <!-- Item 1 -->
                 <tr>
-                  <td scope="row">
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckDefault"
-                      />
-                    </div>
-                  </td>
-                  <td>italent-c1-2021 - 000000004</td>
-                  <td><a href="#">Body Repair-New Step 2 (Pro)</a></td>
-                  <td>System</td>
-                  <td>Bugs System</td>
+                  <td><a href="#">Lorem Ipsum Dolor Sit Ametum</a></td>
+                  <td>1</td>
+                  <td>100</td>
+                  <td>120</td>
                   <td>19/02/2021 10:22</td>
                   <td>19/02/2022 10:23</td>
-                  <td>MDM API</td>
-                  <td>Open</td>
                   <td>
                     <div class="row mx-0">
                       <div class="col-auto px-0">
@@ -192,7 +140,7 @@
                         </button>
                       </div>
                       <div class="col">
-                        <button type="button" class="btn btn-sm btn-danger">
+                        <button type="button" class="btn btn-sm btn-info">
                           Remove
                         </button>
                       </div>
@@ -201,24 +149,12 @@
                 </tr>
                 <!-- Item 2 -->
                 <tr>
-                  <td scope="row">
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckDefault"
-                      />
-                    </div>
-                  </td>
-                  <td>italent-c1-2021 - 000000004</td>
-                  <td><a href="#">Body Repair-New Step 2 (Pro)</a></td>
-                  <td>System</td>
-                  <td>Bugs System</td>
+                  <td><a href="#">Lorem Ipsum Dolor Sit Ametum</a></td>
+                  <td>1</td>
+                  <td>100</td>
+                  <td>120</td>
                   <td>19/02/2021 10:22</td>
                   <td>19/02/2022 10:23</td>
-                  <td>MDM API</td>
-                  <td>Open</td>
                   <td>
                     <div class="row mx-0">
                       <div class="col-auto px-0">
@@ -227,7 +163,7 @@
                         </button>
                       </div>
                       <div class="col">
-                        <button type="button" class="btn btn-sm btn-danger">
+                        <button type="button" class="btn btn-sm btn-info">
                           Remove
                         </button>
                       </div>
@@ -277,7 +213,7 @@ import VPagination from "@hennge/vue3-pagination";
 import "@hennge/vue3-pagination/dist/vue3-pagination.css";
 
 export default {
-  name: "Guide",
+  name: "Training Process",
   components: {
     Sidebar,
     Navbar,
@@ -292,5 +228,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "MyComplaint.scss";
+@import "MyLearning.scss";
 </style>

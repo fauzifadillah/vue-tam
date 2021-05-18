@@ -1,0 +1,20 @@
+.container {
+  &-training-process {
+    .table {
+      min-width: 1200px;
+
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+  &-release-training {
+    .table {
+      min-width: 1200px;
+
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+}

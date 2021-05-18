@@ -7,6 +7,8 @@ import GuestAccount from "../views/Dashboard/GuestAccount.vue";
 import EditGuestAccount from "../views/Dashboard/EditGuestAccount.vue";
 /* Access Control */
 /* My Learning */
+import TrainingProcess from "../views/MyLearning/TrainingProcess.vue";
+import ReleaseTraining from "../views/MyLearning/ReleaseTraining.vue";
 /* My Complaint */
 import Complaint from "../views/MyComplaint/Complaint.vue";
 import Category from "../views/MyComplaint/Category.vue";
@@ -43,6 +45,17 @@ const routes = [
     path: "/dashboard/guest-account/edit",
     name: "EditGuestAccount",
     component: EditGuestAccount,
+  },
+  // My Learning
+  {
+    path: "/my-learning/training-process",
+    name: "TrainingProcess",
+    component: TrainingProcess,
+  },
+  {
+    path: "/my-learning/release-training",
+    name: "ReleaseTraining",
+    component: ReleaseTraining,
   },
   // My Complaint
   {
