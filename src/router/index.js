@@ -2,9 +2,15 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home/Home.vue";
 import Report from "../views/Report/Report.vue";
 import PushNotification from "../views/PushNotification/PushNotification.vue";
+/* Dashboard */
 import GuestAccount from "../views/Dashboard/GuestAccount.vue";
 import EditGuestAccount from "../views/Dashboard/EditGuestAccount.vue";
+/* CMS */
 import Onboarding from "../views/CMS/Onboarding.vue";
+import Grouping from "../views/CMS/Grouping.vue";
+// import SplashScreen from "../views/CMS/SplashScreen.vue";
+// import Announcement from "../views/CMS/Announcement.vue";
+// import Guide from "../views/CMS/Guide.vue";
 
 const routes = [
   {
@@ -38,6 +44,11 @@ const routes = [
     path: "/cms/onboarding",
     name: "Onboarding",
     component: Onboarding,
+  },
+  {
+    path: "/cms/grouping",
+    name: "Grouping",
+    component: Grouping,
   },
 ];
 

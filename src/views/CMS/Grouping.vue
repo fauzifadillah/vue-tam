@@ -11,7 +11,7 @@
       <div class="col-auto p-0">
         <Sidebar />
       </div>
-      <div class="col p-4 container-tam container-onboarding">
+      <div class="col p-4 container-tam container-grouping">
         <!-- Header -->
         <div class="row">
           <div class="col-auto">
@@ -19,7 +19,7 @@
           </div>
           <div class="col-auto px-0">></div>
           <div class="col-auto">
-            <h1 class="mb-4 text-primary">Onboarding</h1>
+            <h1 class="mb-4 text-primary">Grouping</h1>
           </div>
         </div>
         <!-- Search Bar, Filter and Add Broadcast -->
@@ -44,11 +44,9 @@
               </button>
             </form>
           </div>
-          <!-- Add Onboarding -->
+          <!-- Add -->
           <div class="col d-flex justify-content-end">
-            <button type="button" class="btn btn-primary">
-              + Add onboarding
-            </button>
+            <button type="button" class="btn btn-primary">+ Add</button>
           </div>
         </div>
         <!-- Table -->
@@ -56,12 +54,7 @@
           <!-- Table Header -->
           <div class="row">
             <div class="col">
-              <h2>Onboarding List</h2>
-            </div>
-            <div class="col-auto">
-              <button type="button" class="btn btn-sm btn-danger">
-                Delete
-              </button>
+              <h2>Grouping List</h2>
             </div>
           </div>
           <hr />
@@ -71,19 +64,9 @@
             <table class="table table-hover table-bordered table-responsive">
               <thead>
                 <tr>
-                  <th scope="col-auto">
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckDefault"
-                      />
-                    </div>
-                  </th>
-                  <th scope="col" style="width: 7.5%">
+                  <th scope="col">
                     <div class="row">
-                      <div class="col">Type</div>
+                      <div class="col">Position Group / Position</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -91,37 +74,7 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 15%">
-                    <div class="row">
-                      <div class="col">Title</div>
-                      <div class="col-auto">
-                        <span
-                          ><i class="fa fa-sort" aria-hidden="true"></i
-                        ></span>
-                      </div>
-                    </div>
-                  </th>
-                  <th scope="col" style="width: 10%">
-                    <div class="row">
-                      <div class="col">File</div>
-                      <div class="col-auto">
-                        <span
-                          ><i class="fa fa-sort" aria-hidden="true"></i
-                        ></span>
-                      </div>
-                    </div>
-                  </th>
-                  <th scope="col" style="width: 12.5%">
-                    <div class="row">
-                      <div class="col">Status</div>
-                      <div class="col-auto">
-                        <span
-                          ><i class="fa fa-sort" aria-hidden="true"></i
-                        ></span>
-                      </div>
-                    </div>
-                  </th>
-                  <th scope="col" style="width: 12.5%">
+                  <th scope="col">
                     <div class="row">
                       <div class="col">Created Date</div>
                       <div class="col-auto">
@@ -131,45 +84,23 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 12.5%">
-                    <div class="row">
-                      <div class="col">Updated Date</div>
-                      <div class="col-auto">
-                        <span
-                          ><i class="fa fa-sort" aria-hidden="true"></i
-                        ></span>
-                      </div>
-                    </div>
-                  </th>
-                  <th scope="col">Action</th>
+                  <th scope="col" style="width: 25%">Action</th>
                 </tr>
               </thead>
               <tbody>
                 <!-- Item 1 -->
-                <tr>
-                  <td scope="row">
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckDefault"
-                      />
-                    </div>
+                <tr
+                  data-toggle="collapse"
+                  data-target="#position-1"
+                  class="accordion-toggle"
+                >
+                  <td>
+                    <span><i class="fa fa-angle-down"></i></span> &nbsp; Sales
+                    Executive
                   </td>
-                  <td>Image</td>
-                  <td>Lorem Ipsum Dolor Sit Amet</td>
-                  <td><a href="#">wa1234.jpg</a></td>
-                  <td>Waiting for Approval</td>
                   <td>19/02/2021 10:22</td>
-                  <td>19/02/2022 10:23</td>
                   <td>
                     <div class="row mx-0">
-                      <div class="col-auto px-0">
-                        <button type="button" class="btn btn-sm btn-warning">
-                          View Detail
-                        </button>
-                      </div>
                       <div class="col-auto">
                         <button type="button" class="btn btn-sm btn-info">
                           Edit
@@ -183,31 +114,41 @@
                     </div>
                   </td>
                 </tr>
-                <!-- Item 2 -->
-                <tr>
-                  <td scope="row">
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckDefault"
-                      />
-                    </div>
+                <!-- Sub Item 1 -->
+                <tr class="panel-collapse collapse" id="position-1">
+                  <td>
+                    <span class="text-white"
+                      ><i class="fa fa-angle-down"></i
+                    ></span>
+                    &nbsp; Junior Sales Executive
                   </td>
-                  <td>Image</td>
-                  <td>Lorem Ipsum Dolor Sit Amet</td>
-                  <td><a href="#">wa1234.jpg</a></td>
-                  <td>Waiting for Approval</td>
                   <td>19/02/2021 10:22</td>
-                  <td>19/02/2022 10:23</td>
                   <td>
                     <div class="row mx-0">
-                      <div class="col-auto px-0">
-                        <button type="button" class="btn btn-sm btn-warning">
-                          View Detail
+                      <div class="col-auto">
+                        <button type="button" class="btn btn-sm btn-info">
+                          Edit
                         </button>
                       </div>
+                      <div class="col px-0">
+                        <button type="button" class="btn btn-sm btn-danger">
+                          Remove
+                        </button>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <!-- Sub Item 2 -->
+                <tr class="panel-collapse collapse" id="position-1">
+                  <td>
+                    <span class="text-white"
+                      ><i class="fa fa-angle-down"></i
+                    ></span>
+                    &nbsp; Junior Gas Executive
+                  </td>
+                  <td>19/02/2021 10:22</td>
+                  <td>
+                    <div class="row mx-0">
                       <div class="col-auto">
                         <button type="button" class="btn btn-sm btn-info">
                           Edit
@@ -264,7 +205,7 @@ import VPagination from "@hennge/vue3-pagination";
 import "@hennge/vue3-pagination/dist/vue3-pagination.css";
 
 export default {
-  name: "Onboarding",
+  name: "Grouping",
   components: {
     Sidebar,
     Navbar,

@@ -5,7 +5,13 @@
     }
   }
   &-grouping {
+    .table {
+      min-width: 900px;
 
+      a {
+        font-size: 16px;
+      }
+    }
   }
   &-splash-screen {
 
