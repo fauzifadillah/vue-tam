@@ -22,6 +22,7 @@ body {
 /* Scroll bar */
 ::-webkit-scrollbar {
   width: 5px;
+  height: 5px;
   -webkit-overflow-scrolling: touch;
 }
 ::-webkit-scrollbar-track {
@@ -228,6 +229,10 @@ textarea {
 }
 
 /* Styling Table */
+.table-container {
+  overflow-x: auto;
+}
+
 thead {
   background-color: #0085CA;
   color: #ffffff;

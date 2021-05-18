@@ -59,140 +59,175 @@
           <hr />
           <!-- Table Content -->
           <label for="total-row" class="mb-3">Showing 5 of 5 Entry(s)</label>
-          <table class="table table-hover table-bordered">
-            <thead>
-              <tr>
-                <th scope="col-auto">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id="flexCheckDefault"
-                    />
-                  </div>
-                </th>
-                <th scope="col">Sender</th>
-                <th scope="col">Title</th>
-                <th scope="col">Category</th>
-                <th scope="col">Send Date</th>
-                <th scope="col">Action</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td scope="row">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id="flexCheckDefault"
-                    />
-                  </div>
-                </td>
-                <td class="col-2">Felisa Marta</td>
-                <td class="col-2">
-                  Lorem Ipsum Dolor Sit Amet asdasldjasdkasdklj
-                </td>
-                <td>Announcement</td>
-                <td>19/02/2021 10:22</td>
-                <td>
-                  <div class="row mx-0">
-                    <div class="col-auto px-0">
-                      <button type="button" class="btn btn-sm btn-warning">
-                        View Detail
-                      </button>
+          <div class="table-container">
+            <table class="table table-hover table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col-auto">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
                     </div>
-                    <div class="col-auto">
-                      <button type="button" class="btn btn-sm btn-info">
-                        Edit
-                      </button>
+                  </th>
+                  <th scope="col" style="width: 12.5%">
+                    <div class="row">
+                      <div class="col">Sender</div>
+                      <div class="col-auto">
+                        <span
+                          ><i class="fa fa-sort" aria-hidden="true"></i
+                        ></span>
+                      </div>
                     </div>
-                    <div class="col px-0">
-                      <button type="button" class="btn btn-sm btn-danger">
-                        Remove
-                      </button>
+                  </th>
+                  <th scope="col" style="width: 15%">
+                    <div class="row">
+                      <div class="col">Title</div>
+                      <div class="col-auto">
+                        <span
+                          ><i class="fa fa-sort" aria-hidden="true"></i
+                        ></span>
+                      </div>
                     </div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td scope="row">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id="flexCheckDefault"
-                    />
-                  </div>
-                </td>
-                <td class="col-2">Felisa Marta</td>
-                <td class="col-2">
-                  Lorem Ipsum Dolor Sit Amet asdasldjasdkasdklj
-                </td>
-                <td>Announcement</td>
-                <td>19/02/2021 10:22</td>
-                <td>
-                  <div class="row mx-0">
-                    <div class="col-auto px-0">
-                      <button type="button" class="btn btn-sm btn-warning">
-                        View Detail
-                      </button>
+                  </th>
+                  <th scope="col" style="width: 10%">
+                    <div class="row">
+                      <div class="col">Category</div>
+                      <div class="col-auto">
+                        <span
+                          ><i class="fa fa-sort" aria-hidden="true"></i
+                        ></span>
+                      </div>
                     </div>
-                    <div class="col-auto">
-                      <button type="button" class="btn btn-sm btn-info">
-                        Edit
-                      </button>
+                  </th>
+                  <th scope="col" style="width: 15%">
+                    <div class="row">
+                      <div class="col">Send Date</div>
+                      <div class="col-auto">
+                        <span
+                          ><i class="fa fa-sort" aria-hidden="true"></i
+                        ></span>
+                      </div>
                     </div>
-                    <div class="col px-0">
-                      <button type="button" class="btn btn-sm btn-danger">
-                        Remove
-                      </button>
+                  </th>
+                  <th scope="col">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Item 1 -->
+                <tr>
+                  <td scope="row">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
                     </div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td scope="row">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id="flexCheckDefault"
-                    />
-                  </div>
-                </td>
-                <td class="col-2">Felisa Marta</td>
-                <td class="col-2">
-                  Lorem Ipsum Dolor Sit Amet asdasldjasdkasdklj
-                </td>
-                <td>Announcement</td>
-                <td>19/02/2021 10:22</td>
-                <td>
-                  <div class="row mx-0">
-                    <div class="col-auto px-0">
-                      <button type="button" class="btn btn-sm btn-warning">
-                        View Detail
-                      </button>
+                  </td>
+                  <td>Felisa Marta</td>
+                  <td>Lorem Ipsum Dolor Sit Amet asdasldjasdkasdklj</td>
+                  <td>Announcement</td>
+                  <td>19/02/2021 10:22</td>
+                  <td>
+                    <div class="row mx-0">
+                      <div class="col-auto px-0">
+                        <button type="button" class="btn btn-sm btn-warning">
+                          View Detail
+                        </button>
+                      </div>
+                      <div class="col-auto">
+                        <button type="button" class="btn btn-sm btn-info">
+                          Edit
+                        </button>
+                      </div>
+                      <div class="col px-0">
+                        <button type="button" class="btn btn-sm btn-danger">
+                          Remove
+                        </button>
+                      </div>
                     </div>
-                    <div class="col-auto">
-                      <button type="button" class="btn btn-sm btn-info">
-                        Edit
-                      </button>
+                  </td>
+                </tr>
+                <!-- Item 2 -->
+                <tr>
+                  <td scope="row">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
                     </div>
-                    <div class="col px-0">
-                      <button type="button" class="btn btn-sm btn-danger">
-                        Remove
-                      </button>
+                  </td>
+                  <td>Felisa Marta</td>
+                  <td>Lorem Ipsum Dolor Sit Amet asdasldjasdkasdklj</td>
+                  <td>Announcement</td>
+                  <td>19/02/2021 10:22</td>
+                  <td>
+                    <div class="row mx-0">
+                      <div class="col-auto px-0">
+                        <button type="button" class="btn btn-sm btn-warning">
+                          View Detail
+                        </button>
+                      </div>
+                      <div class="col-auto">
+                        <button type="button" class="btn btn-sm btn-info">
+                          Edit
+                        </button>
+                      </div>
+                      <div class="col px-0">
+                        <button type="button" class="btn btn-sm btn-danger">
+                          Remove
+                        </button>
+                      </div>
                     </div>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+                  </td>
+                </tr>
+                <!-- Item 3 -->
+                <tr>
+                  <td scope="row">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
+                    </div>
+                  </td>
+                  <td>Felisa Marta</td>
+                  <td>Lorem Ipsum Dolor Sit Amet asdasldjasdkasdklj</td>
+                  <td>Announcement</td>
+                  <td>19/02/2021 10:22</td>
+                  <td>
+                    <div class="row mx-0">
+                      <div class="col-auto px-0">
+                        <button type="button" class="btn btn-sm btn-warning">
+                          View Detail
+                        </button>
+                      </div>
+                      <div class="col-auto">
+                        <button type="button" class="btn btn-sm btn-info">
+                          Edit
+                        </button>
+                      </div>
+                      <div class="col px-0">
+                        <button type="button" class="btn btn-sm btn-danger">
+                          Remove
+                        </button>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <!-- Table Footer -->
           <div class="row mt-2">
             <!-- Set Showed Data Per Page -->

@@ -1,3 +1,19 @@
-.container-cms {
+.container {
+  &-onboarding {
+    .table {
+      min-width: 1300px;
+    }
+  }
+  &-grouping {
 
+  }
+  &-splash-screen {
+
+  }
+  &-announcement {
+
+  }
+  &-guide {
+
+  }
 }
