@@ -420,9 +420,7 @@
         id="my-complaint"
         class="panel-collapse collapse px-0"
         :class="
-          currentRouteName === 'Complaint' ||
-          currentRouteName === 'Category' ||
-          currentRouteName === 'AssignCategory'
+          currentRouteName === 'Complaint' || currentRouteName === 'Category'
             ? 'show'
             : ''
         "
@@ -443,16 +441,6 @@
               <div class="col-2 pl-0 d-flex align-items-center"></div>
               <div class="col-10 d-flex align-items-center">
                 <span>Category</span>
-              </div>
-            </div>
-          </router-link>
-        </div>
-        <div class="row m-0">
-          <router-link :to="'/my-complaint/assign-category'">
-            <div class="row py-2">
-              <div class="col-2 pl-0 d-flex align-items-center"></div>
-              <div class="col-10 d-flex align-items-center">
-                <span>Assign Category</span>
               </div>
             </div>
           </router-link>

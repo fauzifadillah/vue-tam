@@ -9,8 +9,7 @@ import EditGuestAccount from "../views/Dashboard/EditGuestAccount.vue";
 /* My Learning */
 /* My Complaint */
 import Complaint from "../views/MyComplaint/Complaint.vue";
-// import Category from "../views/MyComplaint/Category.vue";
-// import AssignCategory from "../views/MyComplaint/AssignCategory.vue";
+import Category from "../views/MyComplaint/Category.vue";
 /* CMS */
 import Onboarding from "../views/CMS/Onboarding.vue";
 import Grouping from "../views/CMS/Grouping.vue";
@@ -51,16 +50,11 @@ const routes = [
     name: "Complaint",
     component: Complaint,
   },
-  // {
-  //   path: "/my-complaint/category",
-  //   name: "Category",
-  //   component: Category,
-  // },
-  // {
-  //   path: "/my-complaint/assign-category",
-  //   name: "AssignCategory",
-  //   component: AssignCategory,
-  // },
+  {
+    path: "/my-complaint/category",
+    name: "Category",
+    component: Category,
+  },
   // CMS
   {
     path: "/cms/onboarding",
