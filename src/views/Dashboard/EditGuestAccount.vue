@@ -50,6 +50,15 @@
               <!-- Profile Picture -->
               <div class="mb-1"><b>Profile Picture</b></div>
               <img src="@/assets/images/dummy-profile.png" alt="profile" />
+              <form>
+                <div class="form-group mt-3">
+                  <input
+                    type="file"
+                    class="form-control-file"
+                    id="exampleFormControlFile1"
+                  />
+                </div>
+              </form>
             </div>
             <div class="col-3">
               <!-- Manpower Code -->
