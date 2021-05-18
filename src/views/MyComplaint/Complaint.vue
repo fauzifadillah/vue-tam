@@ -11,15 +11,15 @@
       <div class="col-auto p-0">
         <Sidebar />
       </div>
-      <div class="col p-4 container-tam container-guide">
+      <div class="col p-4 container-tam container-complaint">
         <!-- Header -->
         <div class="row">
           <div class="col-auto">
-            <h1 class="mb-4">CMS</h1>
+            <h1 class="mb-4">My Complaint</h1>
           </div>
           <div class="col-auto px-0">></div>
           <div class="col-auto">
-            <h1 class="mb-4 text-primary">Guide</h1>
+            <h1 class="mb-4 text-primary">Complaint</h1>
           </div>
         </div>
         <!-- Search Bar, Filter and Add Broadcast -->
@@ -44,21 +44,22 @@
               </button>
             </form>
           </div>
-          <!-- Add Guide -->
-          <div class="col d-flex justify-content-end">
-            <button type="button" class="btn btn-primary">+ Add Guide</button>
-          </div>
         </div>
         <!-- Table -->
         <div class="card p-4">
           <!-- Table Header -->
           <div class="row">
             <div class="col">
-              <h2>Guide List</h2>
+              <h2>Complaint List</h2>
             </div>
             <div class="col-auto">
               <button type="button" class="btn btn-sm btn-danger">
                 Delete
+              </button>
+            </div>
+            <div class="col-auto">
+              <button type="button" class="btn btn-sm btn-primary">
+                Bulk Update
               </button>
             </div>
           </div>
@@ -79,9 +80,29 @@
                       />
                     </div>
                   </th>
-                  <th scope="col" style="width: 12.5%">
+                  <th scope="col" style="width: 10%">
                     <div class="row">
-                      <div class="col">Title</div>
+                      <div class="col">ID</div>
+                      <div class="col-auto">
+                        <span
+                          ><i class="fa fa-sort" aria-hidden="true"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </th>
+                  <th scope="col" style="width: 10%">
+                    <div class="row">
+                      <div class="col">Subject</div>
+                      <div class="col-auto">
+                        <span
+                          ><i class="fa fa-sort" aria-hidden="true"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </th>
+                  <th scope="col" style="width: 10%">
+                    <div class="row">
+                      <div class="col">Category</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -91,7 +112,7 @@
                   </th>
                   <th scope="col" style="width: 12.5%">
                     <div class="row">
-                      <div class="col">Type of Guide</div>
+                      <div class="col">Sub Category</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -100,28 +121,38 @@
                     </div>
                   </th>
                   <th scope="col" style="width: 12.5%">
+                    <div class="row">
+                      <div class="col">Submitted Date</div>
+                      <div class="col-auto">
+                        <span
+                          ><i class="fa fa-sort" aria-hidden="true"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </th>
+                  <th scope="col" style="width: 10%">
+                    <div class="row">
+                      <div class="col">Event Date</div>
+                      <div class="col-auto">
+                        <span
+                          ><i class="fa fa-sort" aria-hidden="true"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </th>
+                  <th scope="col" style="width: 7.5%">
+                    <div class="row">
+                      <div class="col">PIC</div>
+                      <div class="col-auto">
+                        <span
+                          ><i class="fa fa-sort" aria-hidden="true"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </th>
+                  <th scope="col" style="width: 7.5%">
                     <div class="row">
                       <div class="col">Status</div>
-                      <div class="col-auto">
-                        <span
-                          ><i class="fa fa-sort" aria-hidden="true"></i
-                        ></span>
-                      </div>
-                    </div>
-                  </th>
-                  <th scope="col" style="width: 15%">
-                    <div class="row">
-                      <div class="col">Created Date</div>
-                      <div class="col-auto">
-                        <span
-                          ><i class="fa fa-sort" aria-hidden="true"></i
-                        ></span>
-                      </div>
-                    </div>
-                  </th>
-                  <th scope="col" style="width: 15%">
-                    <div class="row">
-                      <div class="col">Updated Date</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -145,11 +176,14 @@
                       />
                     </div>
                   </td>
-                  <td>Lorem Ipsum Dolor Sit Ametum</td>
-                  <td>Get Started</td>
-                  <td>Waiting for Approval</td>
+                  <td>italent-c1-2021 - 000000004</td>
+                  <td><a href="#">Body Repair-New Step 2 (Pro)</a></td>
+                  <td>System</td>
+                  <td>Bugs System</td>
                   <td>19/02/2021 10:22</td>
                   <td>19/02/2022 10:23</td>
+                  <td>MDM API</td>
+                  <td>Open</td>
                   <td>
                     <div class="row mx-0">
                       <div class="col-auto px-0">
@@ -157,12 +191,7 @@
                           View Detail
                         </button>
                       </div>
-                      <div class="col-auto">
-                        <button type="button" class="btn btn-sm btn-info">
-                          Edit
-                        </button>
-                      </div>
-                      <div class="col px-0">
+                      <div class="col">
                         <button type="button" class="btn btn-sm btn-danger">
                           Remove
                         </button>
@@ -182,11 +211,14 @@
                       />
                     </div>
                   </td>
-                  <td>Lorem Ipsum Dolor Sit Ametum</td>
-                  <td>Find your path</td>
-                  <td>Waiting for Approval</td>
+                  <td>italent-c1-2021 - 000000004</td>
+                  <td><a href="#">Body Repair-New Step 2 (Pro)</a></td>
+                  <td>System</td>
+                  <td>Bugs System</td>
                   <td>19/02/2021 10:22</td>
                   <td>19/02/2022 10:23</td>
+                  <td>MDM API</td>
+                  <td>Open</td>
                   <td>
                     <div class="row mx-0">
                       <div class="col-auto px-0">
@@ -194,12 +226,7 @@
                           View Detail
                         </button>
                       </div>
-                      <div class="col-auto">
-                        <button type="button" class="btn btn-sm btn-info">
-                          Edit
-                        </button>
-                      </div>
-                      <div class="col px-0">
+                      <div class="col">
                         <button type="button" class="btn btn-sm btn-danger">
                           Remove
                         </button>
@@ -265,5 +292,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "CMS.scss";
+@import "MyComplaint.scss";
 </style>

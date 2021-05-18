@@ -1,10 +1,14 @@
 .container {
-  &-onboarding {
+  &-complaint {
     .table {
-      min-width: 1300px;
+      min-width: 1500px;
+
+      a {
+        font-size: 16px;
+      }
     }
   }
-  &-grouping {
+  &-category {
     .table {
       min-width: 900px;
 
@@ -13,23 +17,13 @@
       }
     }
   }
-  &-splash-screen {
+  &-assign-category {
     .table {
       min-width: 1200px;
-    }
-  }
-  &-announcement {
-    .table {
-      min-width: 1300px;
-      
+
       a {
         font-size: 16px;
       }
-    }
-  }
-  &-guide {
-    .table {
-      min-width: 1300px;
     }
   }
 }
