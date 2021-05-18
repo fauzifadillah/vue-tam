@@ -10,7 +10,7 @@ import Onboarding from "../views/CMS/Onboarding.vue";
 import Grouping from "../views/CMS/Grouping.vue";
 import SplashScreen from "../views/CMS/SplashScreen.vue";
 import Announcement from "../views/CMS/Announcement.vue";
-// import Guide from "../views/CMS/Guide.vue";
+import Guide from "../views/CMS/Guide.vue";
 
 const routes = [
   {
@@ -59,6 +59,11 @@ const routes = [
     path: "/cms/announcement",
     name: "Announcement",
     component: Announcement,
+  },
+  {
+    path: "/cms/guide",
+    name: "Guide",
+    component: Guide,
   },
 ];
 
