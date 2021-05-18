@@ -5,6 +5,12 @@ body {
   margin: 0;
 }
 
+.container-tam {
+  background-color: #F2F2F2;
+  max-height: 90vh;
+  overflow-y: scroll;
+}
+
 .bg-primary-tam {
   background: #F6FBFF;
 }

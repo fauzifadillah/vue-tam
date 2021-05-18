@@ -11,9 +11,17 @@
       <div class="col-auto p-0">
         <Sidebar />
       </div>
-      <div class="col p-4 container-tam container-push-notification">
+      <div class="col p-4 container-tam container-cms">
         <!-- Header -->
-        <h1 class="mb-4">Push Notification</h1>
+        <div class="row">
+          <div class="col-auto">
+            <h1 class="mb-4">CMS</h1>
+          </div>
+          <div class="col-auto px-0">></div>
+          <div class="col-auto">
+            <h1 class="mb-4 text-primary">Onboarding</h1>
+          </div>
+        </div>
         <!-- Search Bar, Filter and Add Broadcast -->
         <div class="row mb-4">
           <!-- Filter -->
@@ -233,7 +241,7 @@ import VPagination from "@hennge/vue3-pagination";
 import "@hennge/vue3-pagination/dist/vue3-pagination.css";
 
 export default {
-  name: "PushNotification",
+  name: "Onboarding",
   components: {
     Sidebar,
     Navbar,
@@ -248,5 +256,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "PushNotification.scss";
+@import "CMS.scss";
 </style>

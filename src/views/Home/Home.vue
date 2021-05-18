@@ -11,7 +11,7 @@
       <div class="col-auto p-0">
         <Sidebar />
       </div>
-      <div class="col p-4 container-home">
+      <div class="col p-4 container-tam container-home">
         <!-- Header -->
         <h1 class="mb-4">Home</h1>
         <!-- Content -->
