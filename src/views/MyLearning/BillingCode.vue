@@ -11,7 +11,7 @@
       <div class="col-auto p-0">
         <Sidebar />
       </div>
-      <div class="col p-4 container-tam container-release-training">
+      <div class="col p-4 container-tam container-billing-code">
         <!-- Header -->
         <div class="row">
           <div class="col-auto">
@@ -19,7 +19,7 @@
           </div>
           <div class="col-auto px-0">></div>
           <div class="col-auto">
-            <h1 class="mb-4 text-primary">Release Training</h1>
+            <h1 class="mb-4 text-primary">Billing Code</h1>
           </div>
         </div>
         <!-- Search Bar, Filter and Add Broadcast -->
@@ -31,7 +31,7 @@
             </button>
           </div>
           <!-- Search Bar -->
-          <div class="col">
+          <div class="col-5">
             <form class="d-flex">
               <input
                 class="form-control"
@@ -44,20 +44,23 @@
               </button>
             </form>
           </div>
-          <div class="col d-flex justify-content-end">
-            <router-link :to="'/my-learning/release-training/add'">
-              <button class="btn btn-primary" type="submit">
-                + Add Release Training
-              </button>
-            </router-link>
-          </div>
         </div>
         <!-- Table -->
         <div class="card p-4">
           <!-- Table Header -->
           <div class="row">
             <div class="col">
-              <h2>Training List</h2>
+              <h2>Billing Code</h2>
+            </div>
+            <div class="col-auto px-0">
+              <button type="button" class="btn btn-sm btn-danger text-white">
+                Delete
+              </button>
+            </div>
+            <div class="col-auto">
+              <button type="button" class="btn btn-sm btn-primary text-white">
+                Bulk Update
+              </button>
             </div>
           </div>
           <hr />
@@ -77,9 +80,9 @@
                       />
                     </div>
                   </th>
-                  <th scope="col" style="width: 15%">
+                  <th scope="col">
                     <div class="row">
-                      <div class="col">Course Name</div>
+                      <div class="col">Billing Code</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -87,9 +90,9 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 10%">
+                  <th scope="col">
                     <div class="row">
-                      <div class="col">Batch</div>
+                      <div class="col">Course</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -97,9 +100,9 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 12.5%">
+                  <th scope="col">
                     <div class="row">
-                      <div class="col">Start Date</div>
+                      <div class="col">Accomodation</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -107,9 +110,9 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 12.5%">
+                  <th scope="col">
                     <div class="row">
-                      <div class="col">End Date</div>
+                      <div class="col">Training Date</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -117,9 +120,29 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 17.5%">
+                  <th scope="col">
                     <div class="row">
-                      <div class="col">Approval Status</div>
+                      <div class="col">Amount</div>
+                      <div class="col-auto">
+                        <span
+                          ><i class="fa fa-sort" aria-hidden="true"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </th>
+                  <th scope="col">
+                    <div class="row">
+                      <div class="col">Participant</div>
+                      <div class="col-auto">
+                        <span
+                          ><i class="fa fa-sort" aria-hidden="true"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </th>
+                  <th scope="col">
+                    <div class="row">
+                      <div class="col">Approver</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -143,31 +166,29 @@
                       />
                     </div>
                   </td>
-                  <td><a href="#">Lorem Ipsum Dolor Sit Ametum</a></td>
-                  <td>1</td>
-                  <td>19/02/2021 10:22</td>
-                  <td>19/02/2022 10:23</td>
-                  <td>Waiting Approval</td>
+                  <td>T-MT021-1-5090</td>
+                  <td><a href="#">Body Repair-New Step 2 (Pro Tech)</a></td>
+                  <td>Triple Share</td>
+                  <td>04 Jan 2021</td>
+                  <td>325000 IDR</td>
+                  <td>John Doe</td>
+                  <td>Fauzi Ojoy</td>
                   <td>
                     <div class="row mx-0">
-                      <div class="col-auto">
+                      <div class="col-auto px-0">
                         <button type="button" class="btn btn-sm btn-warning">
                           View Detail
                         </button>
                       </div>
-                      <div class="col-auto px-0">
+                      <div class="col-auto">
                         <button type="button" class="btn btn-sm btn-info">
                           Edit
-                        </button>
-                      </div>
-                      <div class="col">
-                        <button type="button" class="btn btn-sm btn-danger">
-                          Remove
                         </button>
                       </div>
                     </div>
                   </td>
                 </tr>
+                <!-- Item 2 -->
                 <tr>
                   <td scope="col-auto">
                     <div class="form-check">
@@ -179,26 +200,23 @@
                       />
                     </div>
                   </td>
-                  <td><a href="#">Lorem Ipsum Dolor Sit Ametum</a></td>
-                  <td>1</td>
-                  <td>19/02/2021 10:22</td>
-                  <td>19/02/2022 10:23</td>
-                  <td>Waiting Approval</td>
+                  <td>T-MT021-1-5090</td>
+                  <td><a href="#">Body Repair-New Step 2 (Pro Tech)</a></td>
+                  <td>Triple Share</td>
+                  <td>04 Jan 2021</td>
+                  <td>325000 IDR</td>
+                  <td>John Doe</td>
+                  <td>Fauzi Ojoy</td>
                   <td>
                     <div class="row mx-0">
-                      <div class="col-auto">
+                      <div class="col-auto px-0">
                         <button type="button" class="btn btn-sm btn-warning">
                           View Detail
                         </button>
                       </div>
-                      <div class="col-auto px-0">
+                      <div class="col-auto">
                         <button type="button" class="btn btn-sm btn-info">
                           Edit
-                        </button>
-                      </div>
-                      <div class="col">
-                        <button type="button" class="btn btn-sm btn-danger">
-                          Remove
                         </button>
                       </div>
                     </div>
@@ -247,7 +265,7 @@ import VPagination from "@hennge/vue3-pagination";
 import "@hennge/vue3-pagination/dist/vue3-pagination.css";
 
 export default {
-  name: "Release Training",
+  name: "Billing Code",
   components: {
     Sidebar,
     Navbar,

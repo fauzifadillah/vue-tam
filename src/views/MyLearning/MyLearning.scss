@@ -1,4 +1,13 @@
 .container {
+  &-billing-code {
+    .table {
+      min-width: 1500px;
+
+      a {
+        font-size: 16px;
+      }
+    }
+  }
   &-training-process {
     .table {
       min-width: 1200px;
@@ -14,6 +23,28 @@
 
       a {
         font-size: 16px;
+      }
+    }
+
+    .card-participants-label {
+      background-color: #f2f2f2;
+      border-radius: 4px;
+
+      .label-release-training {
+        border-radius: 25px;
+      }
+
+      .bg-disabled {
+        background-color: #707070;
+      }
+
+      .btn {
+        padding: 0;
+        color: #ffc107;
+
+        .fa {
+          font-size: 20px;
+        }
       }
     }
   }

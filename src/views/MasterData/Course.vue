@@ -11,15 +11,15 @@
       <div class="col-auto p-0">
         <Sidebar />
       </div>
-      <div class="col p-4 container-tam container-release-training">
+      <div class="col p-4 container-tam container-course">
         <!-- Header -->
         <div class="row">
           <div class="col-auto">
-            <h1 class="mb-4">My Learning</h1>
+            <h1 class="mb-4">Master Data</h1>
           </div>
           <div class="col-auto px-0">></div>
           <div class="col-auto">
-            <h1 class="mb-4 text-primary">Release Training</h1>
+            <h1 class="mb-4 text-primary">Course</h1>
           </div>
         </div>
         <!-- Search Bar, Filter and Add Broadcast -->
@@ -31,7 +31,7 @@
             </button>
           </div>
           <!-- Search Bar -->
-          <div class="col">
+          <div class="col-5">
             <form class="d-flex">
               <input
                 class="form-control"
@@ -44,12 +44,9 @@
               </button>
             </form>
           </div>
+          <!-- Add Course -->
           <div class="col d-flex justify-content-end">
-            <router-link :to="'/my-learning/release-training/add'">
-              <button class="btn btn-primary" type="submit">
-                + Add Release Training
-              </button>
-            </router-link>
+            <button type="button" class="btn btn-primary">+ Add Course</button>
           </div>
         </div>
         <!-- Table -->
@@ -57,7 +54,12 @@
           <!-- Table Header -->
           <div class="row">
             <div class="col">
-              <h2>Training List</h2>
+              <h2>Course List</h2>
+            </div>
+            <div class="col-auto">
+              <button type="button" class="btn btn-sm btn-danger">
+                Delete
+              </button>
             </div>
           </div>
           <hr />
@@ -77,7 +79,7 @@
                       />
                     </div>
                   </th>
-                  <th scope="col" style="width: 15%">
+                  <th scope="col">
                     <div class="row">
                       <div class="col">Course Name</div>
                       <div class="col-auto">
@@ -87,9 +89,19 @@
                       </div>
                     </div>
                   </th>
+                  <th scope="col">
+                    <div class="row">
+                      <div class="col">Program Type</div>
+                      <div class="col-auto">
+                        <span
+                          ><i class="fa fa-sort" aria-hidden="true"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </th>
                   <th scope="col" style="width: 10%">
                     <div class="row">
-                      <div class="col">Batch</div>
+                      <div class="col">Learning Type</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -97,9 +109,9 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 12.5%">
+                  <th scope="col" style="width: 10%">
                     <div class="row">
-                      <div class="col">Start Date</div>
+                      <div class="col">By Category</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -107,9 +119,9 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 12.5%">
+                  <th scope="col" style="width: 7.5%">
                     <div class="row">
-                      <div class="col">End Date</div>
+                      <div class="col">Pricing</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -117,9 +129,29 @@
                       </div>
                     </div>
                   </th>
-                  <th scope="col" style="width: 17.5%">
+                  <th scope="col" style="width: 10%">
                     <div class="row">
-                      <div class="col">Approval Status</div>
+                      <div class="col">Status</div>
+                      <div class="col-auto">
+                        <span
+                          ><i class="fa fa-sort" aria-hidden="true"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </th>
+                  <th scope="col" style="width: 10%">
+                    <div class="row">
+                      <div class="col">Created Date</div>
+                      <div class="col-auto">
+                        <span
+                          ><i class="fa fa-sort" aria-hidden="true"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </th>
+                  <th scope="col" style="width: 10%">
+                    <div class="row">
+                      <div class="col">Uploaded Date</div>
                       <div class="col-auto">
                         <span
                           ><i class="fa fa-sort" aria-hidden="true"></i
@@ -133,7 +165,7 @@
               <tbody>
                 <!-- Item 1 -->
                 <tr>
-                  <td scope="col-auto">
+                  <td scope="row">
                     <div class="form-check">
                       <input
                         class="form-check-input"
@@ -143,24 +175,27 @@
                       />
                     </div>
                   </td>
-                  <td><a href="#">Lorem Ipsum Dolor Sit Ametum</a></td>
-                  <td>1</td>
-                  <td>19/02/2021 10:22</td>
-                  <td>19/02/2022 10:23</td>
-                  <td>Waiting Approval</td>
+                  <td>Lorem Ipsum Sit</td>
+                  <td><a href="#"> Entry Development Training Program </a></td>
+                  <td>Online / Offline</td>
+                  <td>Non Product</td>
+                  <td>Free</td>
+                  <td>Waiting for Approval</td>
+                  <td>02/03/2021 23:00</td>
+                  <td>02/03/2021 23:00</td>
                   <td>
                     <div class="row mx-0">
-                      <div class="col-auto">
+                      <div class="col-auto px-0">
                         <button type="button" class="btn btn-sm btn-warning">
                           View Detail
                         </button>
                       </div>
-                      <div class="col-auto px-0">
+                      <div class="col-auto">
                         <button type="button" class="btn btn-sm btn-info">
                           Edit
                         </button>
                       </div>
-                      <div class="col">
+                      <div class="col px-0">
                         <button type="button" class="btn btn-sm btn-danger">
                           Remove
                         </button>
@@ -168,8 +203,9 @@
                     </div>
                   </td>
                 </tr>
+                <!-- Item 2 -->
                 <tr>
-                  <td scope="col-auto">
+                  <td scope="row">
                     <div class="form-check">
                       <input
                         class="form-check-input"
@@ -179,24 +215,27 @@
                       />
                     </div>
                   </td>
-                  <td><a href="#">Lorem Ipsum Dolor Sit Ametum</a></td>
-                  <td>1</td>
-                  <td>19/02/2021 10:22</td>
-                  <td>19/02/2022 10:23</td>
-                  <td>Waiting Approval</td>
+                  <td>Lorem Ipsum Sit</td>
+                  <td><a href="#"> Entry Development Training Program </a></td>
+                  <td>Online / Offline</td>
+                  <td>Non Product</td>
+                  <td>Free</td>
+                  <td>Approved</td>
+                  <td>02/03/2021 23:00</td>
+                  <td>02/03/2021 23:00</td>
                   <td>
                     <div class="row mx-0">
-                      <div class="col-auto">
+                      <div class="col-auto px-0">
                         <button type="button" class="btn btn-sm btn-warning">
                           View Detail
                         </button>
                       </div>
-                      <div class="col-auto px-0">
+                      <div class="col-auto">
                         <button type="button" class="btn btn-sm btn-info">
                           Edit
                         </button>
                       </div>
-                      <div class="col">
+                      <div class="col px-0">
                         <button type="button" class="btn btn-sm btn-danger">
                           Remove
                         </button>
@@ -247,7 +286,7 @@ import VPagination from "@hennge/vue3-pagination";
 import "@hennge/vue3-pagination/dist/vue3-pagination.css";
 
 export default {
-  name: "Release Training",
+  name: "Course",
   components: {
     Sidebar,
     Navbar,
@@ -262,5 +301,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "MyLearning.scss";
+@import "MasterData.scss";
 </style>

@@ -6,17 +6,9 @@ body {
 }
 
 .container-tam {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   max-height: 90vh;
   overflow-y: scroll;
-}
-
-.bg-primary-tam {
-  background: #F6FBFF;
-}
-
-.bg-blue-tam {
-  background-color: #0085CA;
 }
 
 /* Scroll bar */
@@ -79,7 +71,9 @@ h6 {
   font-size: 14px;
 }
 
-a, p, b {
+a,
+p,
+b {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
@@ -88,7 +82,7 @@ a, p, b {
 }
 
 a {
-  color: #0085CA;
+  color: #0085ca;
 }
 
 b {
@@ -97,7 +91,13 @@ b {
 
 .text {
   &-primary {
-    color: #0085CA !important;
+    color: #0085ca !important;
+  }
+}
+
+.bg {
+  &-primary {
+    background-color: #0085ca !important;
   }
 }
 
@@ -118,20 +118,20 @@ button {
   }
 
   &-primary {
-    background-color: #0085CA;
-    border-color: #0085CA;
+    background-color: #0085ca;
+    border-color: #0085ca;
   }
 
   &-success {
-    background-color: #60D408;
-    border-color: #60D408;
+    background-color: #60d408;
+    border-color: #60d408;
   }
 }
 
 /* Styling Dropdown Button */
 .btn-dropdown-tam {
-  color:#000000;
-  border: 1px solid #BCC2C7;
+  color: #000000;
+  border: 1px solid #bcc2c7;
 }
 
 /* Alert Styling */
@@ -142,13 +142,13 @@ button {
   justify-content: center;
 
   &-success {
-    background: rgba(39, 174, 86, 1.0);
+    background: rgba(39, 174, 86, 1);
     color: #fff;
     font-weight: 600;
   }
 
   &-danger {
-    background: rgba(226, 41, 53, 1.0);
+    background: rgba(226, 41, 53, 1);
     color: #fff;
     font-weight: 600;
   }
@@ -157,11 +157,9 @@ button {
 /* Styling Card */
 .card {
   border: none;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.04), 
-              -2px -2px 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.04), -2px -2px 6px rgba(0, 0, 0, 0.04);
   background-color: #ffffff;
 }
-
 
 /* Styling Input Field */
 label {
@@ -182,7 +180,8 @@ label {
   }
 }
 
-input, .form-select {
+input,
+.form-select {
   display: block;
   width: 100%;
   padding: 7px 20px !important;
@@ -206,11 +205,11 @@ input, .form-select {
 
 .form-select.show-entries {
   display: inline;
-  border: 1px solid #BCC2C7;
+  border: 1px solid #bcc2c7;
 }
 
 .form-check {
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 textarea {
@@ -219,7 +218,7 @@ textarea {
   width: 100%;
   padding: 7px 12px !important;
   font-size: 16px;
-  background-color: #F1F5F8;
+  background-color: #f1f5f8;
   border-radius: 4px;
   color: #000000;
   background-clip: padding-box;
@@ -234,7 +233,7 @@ textarea {
 }
 
 thead {
-  background-color: #0085CA;
+  background-color: #0085ca;
   color: #ffffff;
 }
 
@@ -257,5 +256,24 @@ thead {
     appearance: none;
     outline: none;
     border-radius: 4px;
+  }
+}
+
+/* Nav Tabs Styling */
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  border-top: 5px solid #0085ca;
+  color: #0085ca;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  color: #000000;
+  border-top: 5px solid #f2f2f2;
+
+  &:hover {
+    border-top: 5px solid #0085ca;
+    color: #0085ca;
+    background-color: #fff;
   }
 }

@@ -6,9 +6,13 @@ import PushNotification from "../views/PushNotification/PushNotification.vue";
 import GuestAccount from "../views/Dashboard/GuestAccount.vue";
 import EditGuestAccount from "../views/Dashboard/EditGuestAccount.vue";
 /* Access Control */
+/* Master Data */
+import Course from "../views/MasterData/Course.vue";
 /* My Learning */
+import BillingCode from "../views/MyLearning/BillingCode.vue";
 import TrainingProcess from "../views/MyLearning/TrainingProcess.vue";
 import ReleaseTraining from "../views/MyLearning/ReleaseTraining.vue";
+import AddReleaseTraining from "../views/MyLearning/AddReleaseTraining.vue";
 import ManageTrainingProcessList from "../views/MyLearning/ManageTrainingProcessList.vue";
 import ManageApprovalTrainingList from "../views/MyLearning/ManageApprovalTrainingList.vue";
 /* My Complaint */
@@ -48,7 +52,18 @@ const routes = [
     name: "EditGuestAccount",
     component: EditGuestAccount,
   },
+  // Master Data
+  {
+    path: "/master-data/course",
+    name: "Course",
+    component: Course,
+  },
   // My Learning
+  {
+    path: "/my-learning/billing-code",
+    name: "BillingCode",
+    component: BillingCode,
+  },
   {
     path: "/my-learning/training-process",
     name: "TrainingProcess",
@@ -58,6 +73,11 @@ const routes = [
     path: "/my-learning/release-training",
     name: "ReleaseTraining",
     component: ReleaseTraining,
+  },
+  {
+    path: "/my-learning/release-training/add",
+    name: "AddReleaseTraining",
+    component: AddReleaseTraining,
   },
   {
     path: "/my-learning/training-process/manage-training-list",

@@ -1,0 +1,11 @@
+.container {
+  &-course {
+    .table {
+      min-width: 2000px;
+
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+}
