@@ -17,4 +17,32 @@
       }
     }
   }
+  &-manage-training-list {
+    .table {
+      // min-width: 300px;
+
+      &-container {
+        max-height: 50vh;
+      }
+
+      a {
+        font-size: 16px;
+      }
+    }
+
+    .col-md-6 {
+      .card {
+        height: 80vh;
+      }
+    }
+  }
+  &-manage-training-process {
+    .table {
+      min-width: 1200px;
+
+      a {
+        font-size: 16px;
+      }
+    }
+  }
 }

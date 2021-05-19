@@ -9,6 +9,8 @@ import EditGuestAccount from "../views/Dashboard/EditGuestAccount.vue";
 /* My Learning */
 import TrainingProcess from "../views/MyLearning/TrainingProcess.vue";
 import ReleaseTraining from "../views/MyLearning/ReleaseTraining.vue";
+import ManageTrainingProcessList from "../views/MyLearning/ManageTrainingProcessList.vue";
+import ManageApprovalTrainingList from "../views/MyLearning/ManageApprovalTrainingList.vue";
 /* My Complaint */
 import Complaint from "../views/MyComplaint/Complaint.vue";
 import Category from "../views/MyComplaint/Category.vue";
@@ -56,6 +58,16 @@ const routes = [
     path: "/my-learning/release-training",
     name: "ReleaseTraining",
     component: ReleaseTraining,
+  },
+  {
+    path: "/my-learning/training-process/manage-training-list",
+    name: "ManageTrainingProcessList",
+    component: ManageTrainingProcessList,
+  },
+  {
+    path: "/my-learning/approval-training/manage-training-list",
+    name: "ManageApprovalTrainingList",
+    component: ManageApprovalTrainingList,
   },
   // My Complaint
   {

@@ -50,7 +50,7 @@
           <!-- Table Header -->
           <div class="row">
             <div class="col">
-              <h2>Training List</h2>
+              <h2>Training Process List</h2>
             </div>
           </div>
           <hr />
@@ -126,7 +126,11 @@
               <tbody>
                 <!-- Item 1 -->
                 <tr>
-                  <td><a href="#">Lorem Ipsum Dolor Sit Ametum</a></td>
+                  <td>
+                    <a href="/my-learning/training-process/manage-training-list"
+                      >Lorem Ipsum Dolor Sit Ametum</a
+                    >
+                  </td>
                   <td>1</td>
                   <td>100</td>
                   <td>120</td>
@@ -141,7 +145,7 @@
                       </div>
                       <div class="col">
                         <button type="button" class="btn btn-sm btn-info">
-                          Remove
+                          Edit
                         </button>
                       </div>
                     </div>
@@ -149,7 +153,11 @@
                 </tr>
                 <!-- Item 2 -->
                 <tr>
-                  <td><a href="#">Lorem Ipsum Dolor Sit Ametum</a></td>
+                  <td>
+                    <a href="/my-learning/training-process/manage-training-list"
+                      >Lorem Ipsum Dolor Sit Ametum</a
+                    >
+                  </td>
                   <td>1</td>
                   <td>100</td>
                   <td>120</td>
@@ -164,7 +172,7 @@
                       </div>
                       <div class="col">
                         <button type="button" class="btn btn-sm btn-info">
-                          Remove
+                          Edit
                         </button>
                       </div>
                     </div>
