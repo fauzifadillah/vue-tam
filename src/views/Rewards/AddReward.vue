@@ -101,7 +101,7 @@
                     <div class="col-6 mb-2">
                       <input
                         class="mt-2 form-control"
-                        type="text"
+                        type="number"
                         placeholder="Input Number"
                       />
                     </div>
@@ -120,7 +120,7 @@
                     <div class="col-6 mb-2">
                       <input
                         class="mt-2 form-control"
-                        type="text"
+                        type="number"
                         placeholder="Input Number"
                       />
                     </div>
@@ -139,7 +139,7 @@
                     <div class="col-6 mb-2">
                       <input
                         class="mt-2 form-control"
-                        type="text"
+                        type="number"
                         placeholder="Input Number"
                       />
                     </div>
@@ -192,7 +192,7 @@
             <div class="col">
               <h2>File Upload</h2>
             </div>
-            <div class="col-auto">
+            <div class="col-auto px-0">
               <button
                 type="button"
                 class="btn btn-sm btn-primary"

@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home/Home.vue";
 import Report from "../views/Report/Report.vue";
-import PushNotification from "../views/PushNotification/PushNotification.vue";
 /* Dashboard */
 import GuestAccount from "../views/Dashboard/GuestAccount.vue";
 import DetailGuestAccount from "../views/Dashboard/DetailGuestAccount.vue";
@@ -29,6 +28,9 @@ import Guide from "../views/CMS/Guide.vue";
 import AddGuide from "../views/CMS/AddGuide.vue";
 /* My Rewards */
 import AddReward from "../views/Rewards/AddReward.vue";
+/* Push Notification */
+import PushNotification from "../views/PushNotification/PushNotification.vue";
+import AddBroadcast from "../views/PushNotification/AddBroadcast.vue";
 
 const routes = [
   {
@@ -40,11 +42,6 @@ const routes = [
     path: "/report",
     name: "Report",
     component: Report,
-  },
-  {
-    path: "/push-notification",
-    name: "PushNotification",
-    component: PushNotification,
   },
   // Dashboard
   {
@@ -151,6 +148,17 @@ const routes = [
     path: "/rewards/add",
     name: "AddReward",
     component: AddReward,
+  },
+  // Push Notification
+  {
+    path: "/push-notification",
+    name: "PushNotification",
+    component: PushNotification,
+  },
+  {
+    path: "/push-notification/add-broadcast",
+    name: "AddBroadcast",
+    component: AddBroadcast,
   },
 ];
 

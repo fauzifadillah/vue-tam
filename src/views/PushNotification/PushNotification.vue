@@ -38,9 +38,11 @@
           </div>
           <!-- Add Broadcast -->
           <div class="col d-flex justify-content-end">
-            <button type="button" class="btn btn-primary">
-              + Add broadcast
-            </button>
+            <router-link :to="'/push-notification/add-broadcast'">
+              <button type="button" class="btn btn-primary">
+                + Add broadcast
+              </button>
+            </router-link>
           </div>
         </div>
         <!-- Table -->
