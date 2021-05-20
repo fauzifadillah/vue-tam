@@ -26,6 +26,7 @@ import Grouping from "../views/CMS/Grouping.vue";
 import SplashScreen from "../views/CMS/SplashScreen.vue";
 import Announcement from "../views/CMS/Announcement.vue";
 import Guide from "../views/CMS/Guide.vue";
+import AddGuide from "../views/CMS/AddGuide.vue";
 
 const routes = [
   {
@@ -137,6 +138,11 @@ const routes = [
     path: "/cms/guide",
     name: "Guide",
     component: Guide,
+  },
+  {
+    path: "/cms/guide/add",
+    name: "AddGuide",
+    component: AddGuide,
   },
 ];
 

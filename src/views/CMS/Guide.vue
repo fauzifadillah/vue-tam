@@ -46,7 +46,9 @@
           </div>
           <!-- Add Guide -->
           <div class="col d-flex justify-content-end">
-            <button type="button" class="btn btn-primary">+ Add Guide</button>
+            <router-link :to="'/cms/guide/add'">
+              <button type="button" class="btn btn-primary">+ Add Guide</button>
+            </router-link>
           </div>
         </div>
         <!-- Table -->
