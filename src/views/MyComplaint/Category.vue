@@ -45,7 +45,7 @@
             </form>
           </div>
           <!-- Import -->
-          <div class="col d-flex justify-content-end">
+          <div class="col d-flex justify-content-end px-0">
             <button type="button" class="btn btn-warning">Import</button>
           </div>
           <!-- Export -->
@@ -63,7 +63,7 @@
               <h2>Grouping List</h2>
             </div>
             <div class="col-auto">
-              <button type="button" class="btn btn-primary">
+              <button type="button" class="btn btn-sm btn-primary">
                 Add Category / Sub Category
               </button>
             </div>

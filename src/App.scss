@@ -126,6 +126,23 @@ button {
     background-color: #60d408;
     border-color: #60d408;
   }
+
+  &-outline {
+    &-danger {
+      color: #dc3545;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+    &-info {
+      color: #0dcaf0;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
 }
 
 /* Styling Dropdown Button */

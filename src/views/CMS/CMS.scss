@@ -1,4 +1,11 @@
 .container {
+  &-landing-page {
+    .card-item {
+      border: 1px solid #DADADA;
+      border-radius: 4px;
+      cursor: grab;
+    }
+  }
   &-onboarding {
     .table {
       min-width: 1300px;

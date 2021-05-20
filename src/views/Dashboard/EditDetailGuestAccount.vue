@@ -11,7 +11,7 @@
       <div class="col-auto p-0">
         <Sidebar />
       </div>
-      <div class="col p-4 container-tam container-dashboard">
+      <div class="col p-4 container-tam container-detail-guest-account">
         <!-- Header -->
         <div class="row">
           <div class="col-auto">
@@ -25,7 +25,13 @@
           </div>
           <div class="col-auto px-0">></div>
           <div class="col-auto">
-            <h1 class="mb-4 text-danger">Edit Guest Account</h1>
+            <router-link :to="'/dashboard/guest-account/detail'">
+              <h1 class="mb-4 text-primary">View Detail</h1>
+            </router-link>
+          </div>
+          <div class="col-auto px-0">></div>
+          <div class="col-auto">
+            <h1 class="mb-4 text-danger">Edit</h1>
           </div>
         </div>
         <!-- Sub Header -->
@@ -237,7 +243,7 @@ import Datepicker from "vue3-datepicker";
 import { ref } from "vue";
 
 export default {
-  name: "EditGuestAccount",
+  name: "Edit Detail Guest Account",
   components: {
     Sidebar,
     Navbar,

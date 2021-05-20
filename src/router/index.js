@@ -4,7 +4,8 @@ import Report from "../views/Report/Report.vue";
 import PushNotification from "../views/PushNotification/PushNotification.vue";
 /* Dashboard */
 import GuestAccount from "../views/Dashboard/GuestAccount.vue";
-import EditGuestAccount from "../views/Dashboard/EditGuestAccount.vue";
+import DetailGuestAccount from "../views/Dashboard/DetailGuestAccount.vue";
+import EditDetailGuestAccount from "../views/Dashboard/EditDetailGuestAccount.vue";
 /* Access Control */
 /* Master Data */
 import Course from "../views/MasterData/Course.vue";
@@ -19,6 +20,7 @@ import ManageApprovalTrainingList from "../views/MyLearning/ManageApprovalTraini
 import Complaint from "../views/MyComplaint/Complaint.vue";
 import Category from "../views/MyComplaint/Category.vue";
 /* CMS */
+import LandingPage from "../views/CMS/LandingPage.vue";
 import Onboarding from "../views/CMS/Onboarding.vue";
 import Grouping from "../views/CMS/Grouping.vue";
 import SplashScreen from "../views/CMS/SplashScreen.vue";
@@ -48,9 +50,14 @@ const routes = [
     component: GuestAccount,
   },
   {
-    path: "/dashboard/guest-account/edit",
-    name: "EditGuestAccount",
-    component: EditGuestAccount,
+    path: "/dashboard/guest-account/detail",
+    name: "DetailGuestAccount",
+    component: DetailGuestAccount,
+  },
+  {
+    path: "/dashboard/guest-account/detail/edit",
+    name: "EditDetailGuestAccount",
+    component: EditDetailGuestAccount,
   },
   // Master Data
   {
@@ -101,6 +108,11 @@ const routes = [
     component: Category,
   },
   // CMS
+  {
+    path: "/cms/landing-page",
+    name: "LandingPage",
+    component: LandingPage,
+  },
   {
     path: "/cms/onboarding",
     name: "Onboarding",
