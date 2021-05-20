@@ -27,6 +27,8 @@ import SplashScreen from "../views/CMS/SplashScreen.vue";
 import Announcement from "../views/CMS/Announcement.vue";
 import Guide from "../views/CMS/Guide.vue";
 import AddGuide from "../views/CMS/AddGuide.vue";
+/* My Rewards */
+import AddReward from "../views/Rewards/AddReward.vue";
 
 const routes = [
   {
@@ -143,6 +145,12 @@ const routes = [
     path: "/cms/guide/add",
     name: "AddGuide",
     component: AddGuide,
+  },
+  // Rewards
+  {
+    path: "/rewards/add",
+    name: "AddReward",
+    component: AddReward,
   },
 ];
 

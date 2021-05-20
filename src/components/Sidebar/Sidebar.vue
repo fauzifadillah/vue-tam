@@ -731,7 +731,8 @@
 
     <!-- Reward -->
     <div class="row m-0">
-      <router-link :to="'/rewards'">
+      <!-- Temporary -->
+      <router-link :to="'/rewards/add'">
         <div class="row py-2">
           <div class="col-2 pl-0 d-flex align-items-center">
             <img

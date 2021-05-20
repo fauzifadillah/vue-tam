@@ -11,7 +11,7 @@
       <div class="col-auto p-0">
         <Sidebar />
       </div>
-      <div class="col p-4 container-tam container-landing-page">
+      <div class="col p-4 container-tam container-guide">
         <!-- Header -->
         <div class="row">
           <div class="col-auto">
@@ -65,6 +65,7 @@
                 id="description"
                 class="mt-2"
                 rows="10"
+                placeholder="Type something..."
               ></textarea>
             </div>
             <!-- File Upload -->
